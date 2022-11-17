@@ -34,88 +34,70 @@
   align-content: center;
   padding: 20px;
 }
-
-/* .box {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  width: 100vw;
-  max-width: 1100px;
-  height: 100vh;
-  max-height: 1100px;
-  background-color: #a91cc9;
-  margin: 20px;
-} */
 .top {
-  background-color: rgb(0, 149, 255);
+  /* background-color: rgb(0, 149, 255); */
   height: 60%;
   display: flex;
 }
 .bottom {
-  background-color: pink;
+  /* background-color: pink; */
   height: 40%;
   display: flex;
 }
 .top-left {
   width: 60%;
   background-color: blue;
-  border: 2px solid black;
-  border-radius: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
   padding: 5px;
   box-sizing: border-box;
 }
 .top-right {
   width: 40%;
-  background-color: rgb(0, 255, 225);
   display: flex;
 }
 .bttm-left {
   width: 60%;
-  background-color: #a91cc9;
   display: flex;
 }
 .bttm-right {
   width: 40%;
   background-color: bisque;
-  border: 2px solid black;
-  border-radius: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
   padding: 5px;
   box-sizing: border-box;
 }
 .bttm-left-left {
   width: 50%;
   background-color: fuchsia;
-  border: 2px solid black;
-  border-radius: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
   padding: 5px;
 }
 .bttm-left-right {
   width: 50%;
   background-color: yellow;
-  border: 2px solid black;
-  border-radius: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
   padding: 5px;
 }
 .top-right-left {
   width: 50%;
-  background-color: green;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
 }
 .top-right-right {
   width: 50%;
-  background-color: green;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
 }
 .top-right-left-top {
   height: 50%;
   width: 100%;
   background-color: lime;
-  border: 2px solid black;
-  border-radius: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
   padding: 5px;
   box-sizing: border-box;
 }
@@ -123,8 +105,8 @@
   height: 50%;
   width: 100%;
   background-color: rgb(255, 0, 51);
-  border: 2px solid black;
-  border-radius: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
   padding: 5px;
   box-sizing: border-box;
 }
@@ -132,8 +114,8 @@
   height: 50%;
   width: 100%;
   background-color: rgb(42, 91, 12);
-  border: 2px solid black;
-  border-radius: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
   padding: 5px;
   box-sizing: border-box;
 }
@@ -141,8 +123,8 @@
   height: 50%;
   width: 100%;
   background-color: rgb(0, 128, 255);
-  border: 2px solid black;
-  border-radius: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
   padding: 5px;
   box-sizing: border-box;
 }
