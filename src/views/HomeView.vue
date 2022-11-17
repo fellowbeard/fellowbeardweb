@@ -27,14 +27,15 @@
 
 <style>
 .big-box {
-  background-color: grey;
+  background-color: black;
   height: 100vh;
   width: 100vw;
   justify-content: center;
   align-content: center;
+  padding: 20px;
 }
 
-.box {
+/* .box {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -43,7 +44,8 @@
   height: 100vh;
   max-height: 1100px;
   background-color: #a91cc9;
-}
+  margin: 20px;
+} */
 .top {
   background-color: rgb(0, 149, 255);
   height: 60%;
@@ -60,6 +62,7 @@
   border: 2px solid black;
   border-radius: 20px;
   padding: 5px;
+  box-sizing: border-box;
 }
 .top-right {
   width: 40%;
@@ -77,6 +80,7 @@
   border: 2px solid black;
   border-radius: 20px;
   padding: 5px;
+  box-sizing: border-box;
 }
 .bttm-left-left {
   width: 50%;
@@ -97,12 +101,14 @@
   background-color: green;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 .top-right-right {
   width: 50%;
   background-color: green;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 .top-right-left-top {
   height: 50%;
@@ -111,6 +117,7 @@
   border: 2px solid black;
   border-radius: 20px;
   padding: 5px;
+  box-sizing: border-box;
 }
 .top-right-left-bttm {
   height: 50%;
@@ -119,6 +126,7 @@
   border: 2px solid black;
   border-radius: 20px;
   padding: 5px;
+  box-sizing: border-box;
 }
 .top-right-right-top {
   height: 50%;
@@ -127,6 +135,7 @@
   border: 2px solid black;
   border-radius: 20px;
   padding: 5px;
+  box-sizing: border-box;
 }
 .top-right-right-bttm {
   height: 50%;
@@ -135,6 +144,7 @@
   border: 2px solid black;
   border-radius: 20px;
   padding: 5px;
+  box-sizing: border-box;
 }
 </style>
 
